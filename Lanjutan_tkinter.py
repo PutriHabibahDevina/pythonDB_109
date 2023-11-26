@@ -42,11 +42,11 @@ def insert_data():
     max_nilai = max(biologi, fisika, inggris)
     prediksi = ""
     if max_nilai == biologi:
-        prediksi = "Biologi, Ilmu Kelautan, Pendidikan Dokter, Bioteknologi, Ilmu Keperawatan, Ilmu Pertanian, Ilmu Peternakan, Ilmu Perikanan, dan Kebidanan"
+        prediksi = "Kedokteran"
     elif max_nilai == fisika:
-        prediksi = "Fisika, Astronomi, Arsitektur, Teknik (Metalurgi, Pertambangan, Mesin, Elektro, Kimia, dsb), Geofisika"
+        prediksi = "Teknik"
     elif max_nilai == inggris:
-        prediksi = "Sastra Inggris, Pendidikan Bahasa Inggris, Linguistik, HI, Pariwisata, Perhotelan, Hubungan Masyarakat"
+        prediksi = "Bahasa"
     
     hasil.config(text=f"Hasil Prediksi: {prediksi}")
 
